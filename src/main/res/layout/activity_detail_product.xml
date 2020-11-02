@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail_product">
+
+    <fragment
+        android:id="@+id/frm02"
+        android:name="com.example.myapplication.fragments.frag02"
+        android:layout_width="339dp"
+        android:layout_height="258dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/frag02" />
+
+    <fragment
+        android:id="@+id/frm03"
+        android:name="com.example.myapplication.fragments.frag03"
+        android:layout_width="405dp"
+        android:layout_height="391dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frm02"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout="@layout/frag03" />
+</androidx.constraintlayout.widget.ConstraintLayout>
